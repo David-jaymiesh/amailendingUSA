@@ -64,7 +64,7 @@ const ContentFlowSection = () => {
               30 days of ad creatives
             </h2>
             <p className="text-muted-foreground max-w-lg mx-auto text-base md:text-lg leading-relaxed font-light">
-              We produce high-converting ad creatives — you just launch them
+              We produce high-converting ad creatives - you just launch them
             </p>
           </motion.div>
 
