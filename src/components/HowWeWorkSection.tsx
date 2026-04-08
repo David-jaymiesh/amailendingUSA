@@ -25,7 +25,7 @@ const HowWeWorkSection = () => {
             How it works
           </h2>
           <p className="text-muted-foreground text-base md:text-lg font-light leading-relaxed max-w-xl mx-auto">
-            We use AI to rapidly generate and test creative variations — so you find winners faster and scale what works
+            We use AI to rapidly generate and test creative variations - so you find winners faster and scale what works
           </p>
         </motion.div>
 

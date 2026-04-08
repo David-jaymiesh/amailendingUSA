@@ -175,7 +175,7 @@ const ContentFlowSection = () => {
                 <span className="whitespace-nowrap">$499</span>
               </h3>
               <p className="text-muted-foreground text-sm mb-6 font-light">
-                Test the quality — no long-term commitment required
+                Test the quality - no long-term commitment required
               </p>
               <a
                 href={CONTACT_LINK}

@@ -28,7 +28,7 @@ const CTASection = () => {
             concepts for your brand
           </h2>
           <p className="text-muted-foreground text-lg mb-10 font-light">
-            Reach out — we'll show you what creatives will work for your business
+            Reach out - we'll show you what creatives will work for your business
           </p>
           <a
             href={CONTACT_LINK}

@@ -3,10 +3,10 @@ import { Clock, Shuffle, UserSearch, TrendingDown, Ban, DollarSign } from "lucid
 
 const problems = [
   { icon: Clock, title: "Creative production takes forever", desc: "Every ad, video, and visual eats hours that should go toward growing your business" },
-  { icon: Shuffle, title: "No creative system", desc: "Ads launch without strategy — inconsistent quality kills performance" },
+  { icon: Shuffle, title: "No creative system", desc: "Ads launch without strategy - inconsistent quality kills performance" },
   { icon: UserSearch, title: "Freelancer fatigue", desc: "Finding, managing, and QA-ing contractors is a full-time job on its own" },
-  { icon: Ban, title: "Ads don't convert", desc: "You invest in creatives, but CTR is low, ROAS is flat — no winning hooks" },
-  { icon: TrendingDown, title: "Ad spend is wasted", desc: "Weak creatives burn budget — you're scaling the wrong assets" },
+  { icon: Ban, title: "Ads don't convert", desc: "You invest in creatives, but CTR is low, ROAS is flat - no winning hooks" },
+  { icon: TrendingDown, title: "Ad spend is wasted", desc: "Weak creatives burn budget - you're scaling the wrong assets" },
   { icon: DollarSign, title: "Production costs too much", desc: "A single shoot costs more than a full month of ready-to-run ad creatives" },
 ];
 

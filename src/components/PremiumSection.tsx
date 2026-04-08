@@ -51,7 +51,7 @@ const PremiumSection = () => {
                 </h2>
 
                 <p className="text-primary-foreground/50 text-lg md:text-xl max-w-xl leading-relaxed font-light mb-14">
-                  Premium ad creatives at the level of top brands — with a thought-out concept,
+                  Premium ad creatives at the level of top brands - with a thought-out concept,
                   direction, and visuals that build trust and authority
                 </p>
 
