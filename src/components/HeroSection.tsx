@@ -30,8 +30,7 @@ const HeroSection = () => {
           >
             Turn your ad spend into{" "}
             <span className="font-display italic text-accent">winning creatives</span>
-            <br />
-            — fast.
+            {" "}faster
           </motion.h1>
 
           <motion.p
