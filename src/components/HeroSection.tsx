@@ -28,10 +28,10 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-tight mb-8"
           >
-            We create{" "}
-            <span className="font-display italic text-accent">ad creatives</span>
+            Turn your ad spend into{" "}
+            <span className="font-display italic text-accent">winning creatives</span>
             <br />
-            that convert & scale
+            — fast.
           </motion.h1>
 
           <motion.p
@@ -50,7 +50,7 @@ const HeroSection = () => {
             className="max-w-lg mb-12"
           >
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed font-light">
-              You get ready-to-launch creatives — just plug them into your ad manager
+              AI-powered creatives, ready to launch — just plug them into your ad manager
             </p>
           </motion.div>
 

@@ -170,7 +170,7 @@ const ContentFlowSection = () => {
                 <span className="font-heading text-xs tracking-[0.25em] uppercase text-accent">Trial Package</span>
               </div>
               <h3 className="font-heading text-2xl md:text-3xl font-bold tracking-tight mb-2">
-                3 ad creatives for
+                3 performance-tested ad creatives for
                 <br />
                 <span className="whitespace-nowrap">$499</span>
               </h3>
