@@ -21,9 +21,12 @@ const HowWeWorkSection = () => {
           <span className="inline-block font-heading text-xs tracking-[0.3em] uppercase text-muted-foreground mb-6">
             Process
           </span>
-          <h2 className="font-heading text-3xl md:text-5xl font-bold tracking-tight">
+          <h2 className="font-heading text-3xl md:text-5xl font-bold tracking-tight mb-4">
             How it works
           </h2>
+          <p className="text-muted-foreground text-base md:text-lg font-light leading-relaxed max-w-xl mx-auto">
+            We use AI to rapidly generate and test creative variations — so you find winners faster and scale what works
+          </p>
         </motion.div>
 
         <div className="max-w-3xl mx-auto">
