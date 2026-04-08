@@ -50,7 +50,7 @@ const HeroSection = () => {
             className="max-w-lg mb-12"
           >
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed font-light">
-              You get ready-to-launch creatives — just plug them into your ad manager
+              AI-powered creatives, ready to launch — just plug them into your ad manager
             </p>
           </motion.div>
 
