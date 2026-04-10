@@ -13,28 +13,14 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { ArrowRight } from "lucide-react";
 
-const SERVICE_OPTIONS = [
-  { value: "ad-creative-flow", label: "Ad Creative Flow" },
-  { value: "ad-creative-flow-pro", label: "Ad Creative Flow Pro" },
-  { value: "3-performance-tested", label: "3 Performance Tested Ad Creatives" },
-  { value: "brand-creatives", label: "Brand Creatives" },
-  { value: "3-free-ad-creatives", label: "Get 3 Free Ad Creatives" },
-] as const;
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
   email: z.string().trim().email("Please enter a valid email").max(255),
   company: z.string().trim().min(1, "Company / Brand is required").max(200),
-  service: z.string().min(1, "Please select a service"),
+  
   message: z.string().trim().min(1, "Please describe what you need").max(2000),
 });
 
@@ -52,15 +38,10 @@ const ContactFormDialog = ({ open, onOpenChange }: ContactFormDialogProps) => {
     register,
     handleSubmit,
     reset,
-    setValue,
-    watch,
     formState: { errors },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
-    defaultValues: { service: "" },
   });
-
-  const serviceValue = watch("service");
 
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
@@ -108,27 +89,6 @@ const ContactFormDialog = ({ open, onOpenChange }: ContactFormDialogProps) => {
             )}
           </div>
 
-          <div className="space-y-1.5">
-            <Label>Service *</Label>
-            <Select
-              value={serviceValue}
-              onValueChange={(val) => setValue("service", val, { shouldValidate: true })}
-            >
-              <SelectTrigger>
-                <SelectValue placeholder="Select a service" />
-              </SelectTrigger>
-              <SelectContent>
-                {SERVICE_OPTIONS.map((opt) => (
-                  <SelectItem key={opt.value} value={opt.value}>
-                    {opt.label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-            {errors.service && (
-              <p className="text-sm text-destructive">{errors.service.message}</p>
-            )}
-          </div>
 
           <div className="space-y-1.5">
             <Label htmlFor="message">What do you need? *</Label>
